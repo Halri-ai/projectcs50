@@ -14,7 +14,6 @@ body {
 
 .login-form {
     width: 380px;
-    height: 450px;
     padding: 20px;
     background-color: #1a2226 !important;
 }
@@ -26,27 +25,18 @@ input[type="password"] {
     border: 2px solid #48e248;
     border-radius: 10px;
     margin-bottom: 25px;
-}
-
-input[type="email"],
-input[type="password"] {
     outline: none;
-    border: none;
-    background: #1a2226;
-    color: #ffffff;
-    margin: 0;
-
-}
-
-.card-title {
-    font-weight: 900;
-    padding-top: 20px;
 }
 
 .btn {
     background: #48e248;
     color: #000;
-    transform: translateY(10px);
     font-size: 14px;
     border-radius: 10px !important;
+}
+
+.card-title,
+.form-label,
+.form-check-label {
+    color: white;
 }
